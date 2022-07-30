@@ -25,7 +25,7 @@ function App() {
                 </AppBar>
                 <Grow in>
                     <Container>
-                        <Grid container className={classes.mainContainer} direction="column-reverse" justifyContent="space-between" align-items="stretch" spacing={3}>
+                        <Grid container className={classes.mainContainer} justifyContent="space-between" align-items="stretch" spacing={3}>
                             <Grid item xs={12} sm={7}>
                                 <Posts setCurrentId={setCurrentId} />
 
